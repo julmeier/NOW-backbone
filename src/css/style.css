@@ -1,2 +1,9 @@
+#book-list {
+  list-style: none;
+  margin-left: 0;
+}
 
+th.sort {
+  cursor: pointer;
+}
 /* Your styles go here! */

@@ -11,11 +11,21 @@
       <h1>Totally Awesome Mix CD</h1>
     </header>
     <main>
-      <ul id="song-list"> </ul>
+      <h2>Songs!</h2>
+        <section>
+          <ul id="song-list" class="columns large-8 small-12">
+          </ul>
+        </section>
     </main>
 
+    <footer>
+      &copy; 2017, Julia Meier
+    </footer>
+
     <script id="song-template" type="text/template">
-      <!-- Add Template for Song fields here -->
+        <li class="song">
+          <%- title %>, <%- artist %> (<%- year %>)
+        </li>
     </script>
 
   <script src="app.bundle.js" type="text/javascript"></script>
